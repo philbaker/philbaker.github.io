@@ -43,8 +43,8 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-prismjs`,
           `gatsby-remark-smartypants`,
         ],
       },
@@ -68,5 +68,25 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: 'gatsby-plugin-klipse',
+      options: {
+        // Class prefix for <pre> tags containing code examples
+        // defaults to empty string
+        // if you use PrimsJS for example then add `language-` as the prefix
+        classPrefix: 'language-',
+        // Klipse config, you can check it here
+        // klipseSettings: {
+        //   selector: '.klipse-clojure', //selector for clojure evaluation snippets
+        //   selector_js: '.klipse-javascript', // selector for clojure transpilation snippets 
+        // },
+        // https://github.com/viebel/klipse#configuration
+        // Klipse version, defaults to '7.5.0'
+        klipseVersion: '7.5.0',
+        // To load any external scripts you need, pass an array of URLs. The plugin will always load them before the klipse plugin
+        // defaults to an empty Array
+        externalScripts: [],
+      }
+    }
   ],
 }

@@ -6260,6 +6260,11 @@ gatsby-plugin-feed@^2.5.7:
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
+gatsby-plugin-klipse@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-klipse/-/gatsby-plugin-klipse-7.1.0.tgz#454a43559783294df5f5e5d4e2a054bc410592ad"
+  integrity sha512-BLgouF+uXA6SvzNsjtVbz3aBULe8fwFk4kv1xzDNa3XR39B25uaqBIACfGWdf6lBuy89ZPZC8nmFYk+gvcvm8w==
+
 gatsby-plugin-manifest@^2.4.14:
   version "2.4.14"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.14.tgz#9d82fbf81fc568860b1b3cc8cc0bf6cd8513b229"
@@ -6449,9 +6454,9 @@ gatsby-remark-images@^3.3.14:
     unist-util-visit-parents "^2.1.2"
 
 gatsby-remark-prismjs@^3.5.6:
-  version "3.5.6"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.5.6.tgz#933459bde4601f2f6bb2d6a8663743014407500b"
-  integrity sha512-TsMktFfbl7Wq/koQItAxuhM+kbUkIFeGCOMfDsalAF0PvzXp1200m3gn0EyAVhzlVI6+UXFPXyCCVHqHOYVafA==
+  version "3.5.10"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.5.10.tgz#4291818501c2d3f5970830b9509592efaf0f6b07"
+  integrity sha512-1lywDdXyu+y7ieZ7PsrXgwtso1n59gO5btHdbZXCFpvuYt7MHoJhb0FewkbsZ3goJMJ2q8yug5jEGaRKX2vSOQ==
   dependencies:
     "@babel/runtime" "^7.10.3"
     parse-numeric-range "^0.0.2"

@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { css, jsx } from '@emotion/core'
 import tw, { styled } from "twin.macro"
 import "./layout.css"
+import { Helmet } from "react-helmet"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -61,6 +62,9 @@ const Layout = ({ location, title, children }) => {
         ${tw`px-4 py-4 container mx-auto`}
       `}
     >
+      <Helmet>
+        <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"/>
+      </Helmet>
       <header>{header}</header>
       <main>{children}</main>
     </div>

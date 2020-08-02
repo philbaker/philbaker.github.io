@@ -1,17 +1,42 @@
-
+{
   "name": "philbaker",
   "private": true,
   "description": "blog",
   "version": "0.1.0",
   "author": "Phil Baker",
-  "devDependencies": {
-    "@emotion/core": "^10.0.28",
-    "@emotion/styled": "^10.0.27",
-    "gatsby-plugin-emotion": "^4.3.10",
-    "prettier": "2.0.5",
-    "twin.macro": "^1.7.0"
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
-  "homepage": "https://philbaker.me",
+  "dependencies": {
+    "gatsby": "^2.23.12",
+    "gatsby-image": "^2.4.9",
+    "gatsby-plugin-feed": "^2.5.7",
+    "gatsby-plugin-manifest": "^2.4.14",
+    "gatsby-plugin-offline": "^3.2.13",
+    "gatsby-plugin-react-helmet": "^3.3.6",
+    "gatsby-plugin-sharp": "^2.6.14",
+    "gatsby-remark-copy-linked-files": "^2.3.7",
+    "gatsby-remark-images": "^3.3.14",
+    "gatsby-remark-prismjs": "^3.5.6",
+    "gatsby-remark-responsive-iframe": "^2.4.7",
+    "gatsby-remark-smartypants": "^2.3.6",
+    "gatsby-source-filesystem": "^2.3.14",
+    "gatsby-transformer-remark": "^2.8.20",
+    "gatsby-transformer-sharp": "^2.5.7",
+    "prismjs": "^1.20.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75",
+    "typography": "^0.16.19",
+    "typography-theme-wordpress-2016": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
@@ -19,7 +44,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/philbaker.github.io.git"
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
     "build": "gatsby build",
@@ -32,4 +57,3 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   }
 }
-

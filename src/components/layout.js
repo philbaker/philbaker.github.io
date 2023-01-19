@@ -43,6 +43,9 @@ const Layout = ({ location, title, children }) => {
           `}
         >
           <Link
+            css={css`
+              ${tw`hover:underline`}
+            `}
             style={{
               boxShadow: `none`,
               color: `inherit`,
@@ -65,21 +68,53 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <footer
         css={css`
-          ${tw`mt-6`}
+          ${tw`mt-12 flex justify-end`}
         `}
       >
-        <Link
+        <div
           css={css`
-            ${tw`text-sm text-gray-600`}
+            ${tw`space-x-2`}
           `}
-          style={{
-            boxShadow: `none`,
-          }}
-          to={`https://functional.cafe/@philbaker`}
-          rel="me"
         >
-          Mastodon
-        </Link>
+          <Link
+            css={css`
+              ${tw`text-xs text-gray-600 hover:underline`}
+            `}
+            style={{
+              boxShadow: `none`,
+            }}
+            to={`https://github.com/philbaker`}
+            rel="me"
+          >
+            Github
+          </Link>
+
+          <Link
+            css={css`
+              ${tw`text-xs text-gray-600 hover:underline`}
+            `}
+            style={{
+              boxShadow: `none`,
+            }}
+            to={`https://codepen.io/philbaker`}
+            rel="me"
+          >
+            Codepen
+          </Link>
+
+          <Link
+            css={css`
+              ${tw`text-xs text-gray-600 hover:underline`}
+            `}
+            style={{
+              boxShadow: `none`,
+            }}
+            to={`https://functional.cafe/@philbaker`}
+            rel="me"
+          >
+            Mastodon
+          </Link>
+        </div>
       </footer>
     </div>
   )

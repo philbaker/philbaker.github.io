@@ -16,7 +16,7 @@ const AboutIndex = ({ data, location }) => {
 
       <h1 css={css`${tw`mb-3 text-2xl`}`}>About</h1>
               
-      <p>Hi, I'm Phil - a front-end developer based in the UK. I love building user interfaces with Tailwind and React. You can find me on <a rel="me" href="https://functional.cafe/@philbaker">Mastodon</a>.</p>
+      <p>Hi, I'm Phil - a front-end developer based in the UK. I love building user interfaces with React and automating things with Clojure and Vim.</p>
 
       <h3 css={css`${tw`font-medium`}`}>Core skills</h3>
       <ul css={css`${tw`mb-3 list-disc list-inside`}`}>

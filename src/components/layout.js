@@ -63,6 +63,24 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
+      <footer
+        css={css`
+          ${tw`mt-6`}
+        `}
+      >
+        <Link
+          css={css`
+            ${tw`text-sm text-gray-600`}
+          `}
+          style={{
+            boxShadow: `none`,
+          }}
+          to={`https://functional.cafe/@philbaker`}
+          rel="me"
+        >
+          Mastodon
+        </Link>
+      </footer>
     </div>
   )
 }

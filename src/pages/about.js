@@ -16,20 +16,15 @@ const AboutIndex = ({ data, location }) => {
 
       <h1 css={css`${tw`mb-3 text-2xl`}`}>About</h1>
               
-      <p>Hi, I'm Phil - a front-end developer based in the UK. I love to build user interfaces with maintainable and reusable components.</p>
+      <p>Hi, I'm Phil - a front-end developer based in the UK. I love building user interfaces with Tailwind and React.</p>
 
       <h3 css={css`${tw`font-medium`}`}>Core skills</h3>
       <ul css={css`${tw`mb-3 list-disc list-inside`}`}>
-          <li>JavaScript, React, Vue</li>
-          <li>CSS, Tailwind, Bootstrap, BEM</li>
-          <li>Unit testing, Browser automation</li>
+          <li>HTML, CSS, Tailwind, JavaScript, React</li>
+          <li>Clojure(Script)</li>
       </ul>
 
-      <h3 css={css`${tw`font-medium`}`}>Areas of interest</h3>
-      <ul  css={css`${tw`mb-3 list-disc list-inside`}`}>
-          <li>Rapid prototyping</li>
-          <li>Functional programming with Clojure(Script)</li>
-      </ul>
+      <a rel="me" href="https://functional.cafe/@philbaker">Mastodon</a>
     </Layout>
   )
 }
